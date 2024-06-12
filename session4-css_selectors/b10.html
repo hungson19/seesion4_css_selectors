@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            background-color: rgb(195, 195, 193);
+            margin: 100px;
+            padding: 20px;
+        }
+        div{
+            margin-top: 5px;
+        }
+        .left{
+                width: 150px;
+
+                float: left;
+
+                text-align: left;
+                
+            }
+
+        .right{
+            width: -350px;
+            
+            float: right;
+            
+            text-align: left;
+        
+        }
+        .left1{
+            width: 150px;
+            
+            float: left;
+            
+            text-align: left;
+        }
+        .center1{
+            width: 170px;
+            
+            float: left;
+            
+            text-align: left;
+        }
+        .right1{
+            width: 220px;
+            
+            float: left;
+            
+            text-align: left;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+            <h3>Billing address</h3>
+            <div class="left">
+                <label for="">First Name</label><br>
+                <input type="text">
+            </div>
+            <div class="right">
+                <label for="">Last Name</label><br>
+                <input type="text">
+            </div>
+            <br><br><br>
+            <div>
+                <label for="">Username</label><br>
+                <button>@</button><input type="text" placeholder="Username">
+            </div>
+            <div>
+                <label for="">Email</label><br>
+                <input type="text" placeholder="you@emample.com">
+                <div>
+                    <label for="">Address</label><br>
+                    <input type="text" placeholder="123 Main St">
+                </div>
+                <div>
+                    <label for="">Address 2</label><br>
+                    <input type="text" placeholder="Apartment or suite">
+                </div>
+            </div>
+            <div class="left1">
+                <label for="">Country</label><br>
+                <select style="width: 80px;">
+                    <option value="HTML" style="">Choose...</option>
+                </select>
+            </div>
+            <div class="center1">
+                <label for="">State</label><br>
+                <select style="width: 80px;">
+                    <option value="HTML" style="">Choose...</option>
+                </select>
+            </div>
+            <div class="right1">
+                <label for="">Zip</label><br>
+                <input type="text" style="width: 80px;">
+            </div>
+            <br><br><br>
+            <hr>
+            <div>
+                <input type="checkbox" name="" id=""> Shiping address is the same as my billing address
+            </div>
+            <div>
+                <input type="checkbox" name="" id=""> Save this information for next time
+            </div>
+            <hr>
+            <h3>Payment</h3>
+            <div>
+                <input type="radio" name="" id=""> Credit card
+            </div>
+            <div>
+                <input type="radio" name="" id=""> Debit card
+            </div>
+            <div>
+                <input type="radio" name="" id=""> PayPal
+            </div>
+            <div class="left">
+                <label for="">Name on card</label><br>
+                <input type="text">
+            </div>
+            <div class="right">
+                <label for="">Credit card number</label><br>
+                <input type="text">
+            </div>
+            <br><br><br>
+            <div class="left">
+                <label for="">Expiration</label><br>
+                <input type="text">
+            </div>
+            <div class="center" style="margin-left: 200px;">
+                <label for="">CVV</label><br>
+                <input type="text">
+            </div>
+            <hr>
+            <button style="background-color: rgb(46, 120, 195); margin-left: 37%;">Continue to checkout</button>
+        </form>
+    </div>
+    
+</body>
+</html>
